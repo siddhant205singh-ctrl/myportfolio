@@ -254,3 +254,45 @@ transform: scale(0.8);
     margin-top: 5px;
     display: block;
 }
+@media (max-width : 600px)
+{
+ .about-col-2 p{
+    padding-right: 40px;
+    
+ }
+
+
+    .row {
+        flex-direction: column;
+    }
+
+    .contact-left,
+    .contact-right {
+        width: 100%;
+    }
+
+    .contact-left {
+        text-align: center;
+    }
+
+    .contact-left p {
+        margin: 12px 0;
+    }
+
+    form input,
+    form textarea,
+    form button {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .contact-right {
+        margin-top: 20px;
+    }
+
+    .back a {
+        display: inline-block;
+        padding: 8px ;
+        font-size: 0.95rem;
+    }
+}

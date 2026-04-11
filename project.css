@@ -10,7 +10,7 @@ body{
 }
 nav{
     height:9rem;
-    width:50%;
+    width:700px;
     background-color: rgb(139, 201, 180);
     text-align: center;
    align-content: center;
@@ -58,7 +58,8 @@ nav{
 #container3{
     background-color: rgb(31, 31, 241);
     font-style: italic;
-    color:rgb(227, 237, 234)
+    color:rgb(227, 237, 234);
+    padding : 10px;
 }
 #container4 {
     background-color: rgb(223, 137, 110);
@@ -155,5 +156,60 @@ button:active{
 transform: scale(0.8);
 
 }
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
 
+    header {
+        padding: 10px;
+    }
+
+    nav.heading {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 10px;
+        width :500px;
+        margin-left: 82px;
+        height:4rem;
+        font-size: large;
+        width: 250px;
+    }
+
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        
+        gap: 16px;
+        padding: 10px;
+       
+    }
+
+    .container {
+        width: 100%;
+        min-width: auto;
+       margin-left: 10px;
+    }
+
+    .container .front,
+    .container .back1,
+    .container .back2,
+    .container .back3,
+    .container .back4 {
+        padding: 16px;
+        
+    }
+
+    .container button {
+        width: 100%;
+    }
+
+    .container button a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+}
 
