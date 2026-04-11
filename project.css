@@ -198,12 +198,12 @@ transform: scale(0.8);
     .container .back2,
     .container .back3,
     .container .back4 {
-        padding: 16px;
+        padding: 10px;
         
     }
 
     .container button {
-        width: 100%;
+        width: 50%;
     }
 
     .container button a {
