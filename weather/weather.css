@@ -167,3 +167,20 @@ h1{
     transform:scale(0.8);
 
 }
+@media(max-width:600px)
+{
+    .back{
+        margin-left: 70px;
+    }
+    .card{
+        padding-left:20px;
+        padding-right: 20px;
+    }
+    .forecast-card{
+        padding:6.5px;
+    }
+    .weather h1{
+        margin-left: 115px;
+    }
+    
+}

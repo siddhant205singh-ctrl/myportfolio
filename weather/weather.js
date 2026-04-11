@@ -60,6 +60,14 @@ var data = await response.json();
     }
     
 searchBtn.addEventListener ("click", ()=>{
+    const media = window.matchMedia("(max-width:600px)");
+    if(media.matches)
+    {
+         document.querySelector(".card").style.marginTop ="100px";
+         checkWeather(searchBox.value);
+    }
+    else{
 document.querySelector(".card").style.marginTop ="15px";
 checkWeather(searchBox.value);
+    }
 })

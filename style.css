@@ -295,4 +295,44 @@ transform: scale(0.8);
         padding: 8px ;
         font-size: 0.95rem;
     }
+     .container {
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+  }
+
+  .about-col-1,
+  .about-col-2 {
+    width: 100%;
+    padding: 4px;
+  }
+.about-col-2 p{
+    padding: 2px;
+}
+  .about-col-1 img {
+    max-width: 300px;
+    width: 100%;
+    margin: 20px 20px 20px;
+  }
+
+  .tab-titles {
+    display: flex;
+    flex-direction: row;
+justify-content: space-between;
+    /* flex-wrap: nowrap; */
+   margin:0px;
+    
+  }
+
+  .tab-links {
+    flex: auto auto auto;
+    min-width: 100px;
+    margin:0px;
+  
+   
+  }
+  #education ul li span, #education ul li{
+    font-size: larger;
+  }
+ 
 }

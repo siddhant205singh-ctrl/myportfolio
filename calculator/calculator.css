@@ -100,3 +100,15 @@ transform: scale(0.8);
 a{
     text-decoration: none;
 }
+@media(max-width:600px)
+{
+    .calculator{
+        margin:0px;
+    }
+    .buttons{
+        margin-left:55px;
+    }
+    #display{
+        margin-left:55px;
+    }
+}
