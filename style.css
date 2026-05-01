@@ -9,7 +9,7 @@ body{
 }
 #header{
     width: 100%;
-    height: 100vh;
+    height: 97.8vh;
     background-image: url(bac.jpeg);
      background-repeat: no-repeat;
     background-position-x: right;
@@ -254,13 +254,32 @@ transform: scale(0.8);
     margin-top: 5px;
     display: block;
 }
+.container2 {
+  display: none;
+}
+
+/* Sidebar - Desktop */
+
+
+#menu-btn {
+    display: block; /* show hamburger */
+    font-size: 24px;
+  margin: 10px;
+  display:none;
+  }
+  .content {
+  flex: 1;
+  box-sizing: border-box;
+  padding: 0px;
+  
+}
+
 @media (max-width : 600px)
 {
  .about-col-2 p{
     padding-right: 40px;
     
  }
-
 
     .row {
         flex-direction: column;
@@ -334,5 +353,80 @@ justify-content: space-between;
   #education ul li span, #education ul li{
     font-size: larger;
   }
+    .container2 {
+        display:flex;
+    flex-direction: column;
+  }
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background: #f56b6b;
+  color: white;
+  padding: 20px;
+   position: fixed;
+    left: 0px; /* hidden */
+    top: 0px;
+    height: 100%;
+    font-size: 30px;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+    z-index:1000;
+  /* display:none; */
+}
+  .sidebar ul{
+    position: absolute;
+    top:100px;
+    left:45px;
+  }
+
+  .sidebar.active {
+    /* left: 0; visible */
+    transform: translateX(0);
+  }
+
+  #menu-btn {
+    display: block;
+    position:fixed;
+    top:10px;
+   left:10px;
+   z-index:1001;
+
+  }
+  .container ul{
+    display:none;
+  }
+  .logo{
+    position:absolute;
+    height:70px;
+    width:200px;
+    top:2%;
+    left:20%;
+  }
+.header-text p{
+    position: absolute;
+    top:80%;
+}
+   .header-text h1 {
+    font-size: 30px;
+    position: relative;
+    top:580px;
+    left:10px;
+}
+.header-text span{
+    font-size: 30px;
+    position:absolute;
+    top:50px;
+    left:10px;
+}
+#header{
+    width: 100%;
+    height: 97.8vh;
+    background-size :95% 99%;
+    
+    background-position: 90% 50%;
+
+}
  
 }
+
+ 

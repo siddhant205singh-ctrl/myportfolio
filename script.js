@@ -11,3 +11,9 @@ for(tabcontent of tabcontents){
      event.currentTarget.classList.add("active-link");
     document.getElementById(tabname).classList.add("active-tab");
 }
+const btn = document.getElementById("menu-btn");
+const sidebar = document.getElementById("sidebar");
+
+btn.onclick = () => {
+  sidebar.classList.toggle("active");
+};
