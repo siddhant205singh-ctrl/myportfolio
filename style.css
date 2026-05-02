@@ -415,7 +415,7 @@ justify-content: space-between;
     font-size: 30px;
     position: relative;
     top:420px;
-    left:5px;
+    left:55px;
 }
 .header-text span{
     font-size: 30px;
@@ -425,10 +425,10 @@ justify-content: space-between;
 }
 #header{
     width: 100%;
-    height: 720px;
-    background-size :99% 95% ;
+    height: 97.8vh;
+    background-size :99.9% 95% ;
     
-    background-position: 90% 90%;
+    background-position: 90% 92%;
 
 }
  
