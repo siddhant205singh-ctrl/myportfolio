@@ -1,0 +1,139 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#4e54c8;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.container{
+    width:400px;
+    background:#fff;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.2);
+}
+
+h1{
+    text-align:center;
+    margin-bottom:20px;
+    color:#333;
+}
+
+.input-box{
+    display:flex;
+    gap:10px;
+    margin-bottom:20px;
+}
+
+.input-box input{
+    flex:1;
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:6px;
+    outline:none;
+}
+
+.input-box button{
+    padding:10px 18px;
+    border:none;
+    background:#4e54c8;
+    color:white;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+.del-button{
+     padding:10px 18px;
+    border:none;
+    background:#ff0404;
+    color:white;
+    border-radius:6px;
+    cursor:pointer;
+    margin-left: 200px;
+}
+.input-box button:hover{
+    background:#363bb5;
+}
+
+.todo-list{
+    list-style:none;
+}
+
+.todo-list li{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    padding:12px;
+    margin-bottom:10px;
+    background:#efe9e9;
+    border-radius:6px;
+}
+
+.todo-list input[type="checkbox"]{
+    width:18px;
+    height:18px;
+}
+#home{
+    height: 40px;
+    width: 60px;
+    background-color: #ecf248;
+    border-radius: 10px;
+    border: 3px solid black;
+    text-align: center;
+    align-content: center;
+    margin: 20px 30px;
+    font-size: large;
+    font-style: italic;
+    position: absolute;
+    top: 5%;
+    left: 1%;
+
+}
+#back{
+    height: 40px;
+    width: 60px;
+    background-color: #ecf248;
+    border-radius: 10px;
+    border: 3px solid black;
+    text-align: center;
+    align-content: center;
+    margin: 20px 30px;
+    font-size: large;
+    font-style: italic;
+    position: absolute;
+    top: 5%;
+    left: 7%;
+}
+.com:active{
+  
+transform: scale(0.8);
+
+}
+a{
+    text-decoration: none;
+}
+@media(max-width:600px)
+{    
+    #back{
+        position: absolute;
+        left: 70px;
+    }
+    .container{
+        width:350px;
+        padding: 8px;
+    }
+
+  .del-button{
+    margin-left: 150px;
+  }
+
+
+}
